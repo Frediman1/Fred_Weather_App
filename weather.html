@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freds Weather App</title>
+    <link rel="stylesheet" href="weather.css" </head>
+
+<body>
+    <div class="app-wrap">
+        <header>
+            <h2>Air Quality</h2>
+            <input type="text" placeholder="Enter a Location..." class="search-box" />
+        </header>
+        <div class="location">
+            <div class="city">Enter a Location</div>
+            <div class="date">Current Date</div>
+        </div>
+        <div class="coordinates">
+            <div class="lat">Lat.</div>
+            <span id="lat-value">--</span>
+            <div class="lon">Long.</div>
+            <span id="lon-value">--</span>
+        </div>
+        <div class="weather">
+            <span id="temp">--&deg;C</span>
+        </div>
+    </div>
+    <script src="./weather.js"></script>
+</body>
+
+</html>
